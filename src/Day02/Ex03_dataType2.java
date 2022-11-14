@@ -7,7 +7,7 @@ package Day02;
  *  - 전 세계에서 쓰이는 문자 형태 대부분 표현가능
  *  - 한글자만 표현
  */
-public class Ex03 {
+public class Ex03_dataType2 {
 	public static void main(String[] args) {
 		// char형 변수 선언과 동시에 값 대입하기
 		char ch1 = 'A';
