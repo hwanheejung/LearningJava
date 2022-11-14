@@ -7,7 +7,7 @@ package Day02;
  *  - 전 세계에서 쓰이는 문자 형태 대부분 표현가능
  *  - 한글자만 표현
  */
-public class Ex03_dataType2 {
+public class Ex03_primitiveType2 {
 	public static void main(String[] args) {
 		// char형 변수 선언과 동시에 값 대입하기
 		char ch1 = 'A';
@@ -17,6 +17,8 @@ public class Ex03_dataType2 {
 		
 		char ch2 = '金';
 		char ch3 = '쀍';
+		System.out.println("한자도 표현 가능: " + ch2);
+		System.out.println("한글도 가능: " + ch3);
 		
 		int num = ch1; //char 형을 int형으로 형변환
 		System.out.println("대문자 A에 해당하는 숫자코드: " + num);

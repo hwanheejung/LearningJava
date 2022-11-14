@@ -10,7 +10,7 @@ package Day02;
  * 
  * 
  */
-public class Ex02_dataType1 {
+public class Ex02_primitiveType1 {
 	public static void main(String[] args) {
 		// 논리형 지역변수 선언하기
 		boolean isWait;
