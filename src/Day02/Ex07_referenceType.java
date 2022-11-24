@@ -20,7 +20,7 @@ public class Ex07_referenceType {
 		String addr = "서울특별시 서대문구 신촌";
 		boolean isContain = addr.contains("신촌");
 		if (isContain) {
-			System.out.println("yes");
+			System.out.println("addr contains '신촌'");
 	}
 
 }
