@@ -8,6 +8,7 @@ package Day02;
  *  - 문자열을 저장할 수 있다.
  * 
  * c.f) primitive type(기본형) : boolean, char, byte, short, int, long, float, double
+ 	reference type(참조형) : 기본형을 제외한 모든 
  * 
  */
 public class Ex07_referenceType {
@@ -16,6 +17,10 @@ public class Ex07_referenceType {
 		String str = "안녕하세요";
 		System.out.println("str : " + str);
 		
+		String addr = "서울특별시 서대문구 신촌";
+		boolean isContain = addr.contains("신촌");
+		if (isContain) {
+			System.out.println("yes");
 	}
 
 }
